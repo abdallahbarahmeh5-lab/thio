@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Their Hunger is Ours</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">Their Hunger is Ours</a>
+      <ul class="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#crisis">Crisis</a></li>
+        <li><a href="#actions">Actions</a></li>
+        <li><a href="#demands">Demands</a></li>
+        <li><a href="#join">Join</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="hero">
+    <div class="hero-content">
+      <h1>Their Hunger is Ours</h1>
+      <p>We are Palestinians, Israelis, and internationals taking nonviolent action to demand food, aid, and justice for Gaza. Until Gaza eats, we won’t.</p>
+      <div class="hero-buttons">
+        <button onclick="scrollToSection('demands')">Our Demands</button>
+        <button onclick="scrollToSection('join')">Join the Solidarity</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>Who We Are</h2>
+    <p>We are a coalition of Palestinians, Israelis, and international activists based in the occupied territories who refuse to stay silent. Standing together in nonviolent action, in hunger strikes, and in solidarity for Gaza.</p>
+  </section>
+
+  <!-- Crisis Section -->
+  <section id="crisis">
+    <h2>The Crisis in Gaza</h2>
+    <p>Humans in Gaza are being bombed and starved to death. Access to food, clean water, medicine, and humanitarian aid is being systematically denied — and the suffering is deepening.</p>
+    <div class="grid">
+      <div class="card">Bombing & Violence</div>
+      <div class="card">Starvation & Lack of Aid</div>
+      <div class="card">Hostages & Political Prisoners</div>
+      <div class="card">International Inaction</div>
+    </div>
+  </section>
+
+  <!-- Actions Section -->
+  <section id="actions">
+    <h2>Our Actions</h2>
+    <p>Rooted in nonviolent action, we put our bodies and souls into hunger strikes, advocacy, and public awareness campaigns as living acts of solidarity with Gaza.</p>
+  </section>
+
+  <!-- Demands Section -->
+  <section id="demands">
+    <h2>Our Demands</h2>
+    <p>We call on international powers to ensure food, medicine, and humanitarian aid reaches Gaza. We demand the release of hostages and the protection of political prisoners.</p>
+  </section>
+
+  <!-- Join Section -->
+  <section id="join">
+    <h2>Join the Solidarity</h2>
+    <p>Take action wherever you are. Contact authorities, share our message, and participate in advocacy campaigns to amplify our collective voice.</p>
+    <div class="join-buttons">
+      <button>Take Action</button>
+      <button>Donate</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Their Hunger is Ours. All Rights Reserved.</p>
+    <p>
+      <a href="#">Instagram</a> |
+      <a href="#">Twitter</a> |
+      <a href="#">Facebook</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

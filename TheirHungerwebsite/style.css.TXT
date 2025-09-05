@@ -1,0 +1,44 @@
+/* Base styles */
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: 'Roboto', sans-serif; line-height:1.6; color:#333; }
+a { text-decoration:none; color:inherit; }
+button { cursor:pointer; transition:0.3s; }
+
+/* Navbar */
+.navbar { position:fixed; width:100%; background:#333; color:white; padding:10px 0; z-index:1000; }
+.nav-container { max-width:1200px; margin:auto; display:flex; justify-content:space-between; align-items:center; padding:0 20px; }
+.nav-logo { font-weight:bold; font-size:1.5rem; color:white; }
+.nav-menu { list-style:none; display:flex; gap:20px; }
+.nav-menu li a { color:white; }
+.nav-menu li a:hover { color:#e63946; }
+
+/* Hero Section */
+#hero { display:flex; justify-content:center; align-items:center; text-align:center; height:100vh; background:url('https://images.unsplash.com/photo-1592496001025-1ed1c4f5f7a2?auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover; color:white; padding:0 20px; }
+.hero-content h1 { font-size:3rem; margin-bottom:20px; text-shadow:2px 2px 10px rgba(0,0,0,0.7); }
+.hero-content p { font-size:1.5rem; margin-bottom:30px; max-width:700px; text-shadow:1px 1px 8px rgba(0,0,0,0.6); }
+.hero-buttons button { background:#e63946; color:white; border:none; padding:15px 30px; margin:5px; font-size:1rem; border-radius:5px; }
+.hero-buttons button:hover { background:#d62828; }
+
+/* Sections */
+section { padding:80px 20px; max-width:1200px; margin:auto; text-align:center; }
+section h2 { font-size:2.5rem; margin-bottom:20px; color:#e63946; }
+section p { margin-bottom:20px; font-size:1.1rem; }
+
+/* Grid / Cards */
+.grid { display:grid; gap:30px; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); margin-top:40px; }
+.card { background:#f8f9fa; padding:20px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.1); }
+
+/* Join buttons */
+.join-buttons button { background:#e63946; color:white; border:none; padding:15px 30px; margin:5px; font-size:1rem; border-radius:5px; }
+.join-buttons button:hover { background:#d62828; }
+
+/* Footer */
+footer { background:#333; color:white; text-align:center; padding:40px 20px; }
+footer a { color:#e63946; margin:0 10px; font-weight:bold; }
+
+/* Responsive */
+@media(max-width:768px){
+  #hero h1 { font-size:2.2rem; }
+  #hero p { font-size:1.2rem; }
+  .nav-menu { flex-direction:column; gap:10px; margin-top:10px; }
+}
